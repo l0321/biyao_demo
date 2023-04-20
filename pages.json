@@ -19,7 +19,7 @@
 	// 配置tabbar导航栏
 	"tabBar": {
 		"borderStyle": "black",
-		"selectedColor": "#FB7299",
+		"selectedColor": "#389BFF",
 		"color": "#444444",
 		"list": [{
 			"pagePath": "pages/index/index",
