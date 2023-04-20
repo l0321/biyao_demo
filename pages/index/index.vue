@@ -30,7 +30,7 @@
 		</swiper>
 	</view> -->
 	<!-- 文本 -->
-	<view class="swiper_text">
+	<!-- <view class="swiper_text">
 		<li>大牌品质</li>
 		<li>/</li>
 		<li>工厂价格</li>
@@ -40,9 +40,9 @@
 		<li>顺丰包邮</li>
 		<li>/</li>
 		<li>无忧退款</li>
-	</view>
+	</view> -->
 	<!-- 二级标题 -->
-	<!--  -->
+	<div></div>
 	<view class="two_title">
 		<view class="title_view">
 			<image :src="item" mode="" v-for="(item,index) in image" :key="index"></image>
