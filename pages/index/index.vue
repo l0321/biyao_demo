@@ -11,7 +11,7 @@
 		</view>
 	</view>
 	<!-- 一级标题 -->
-	<view class="text" :scroll-x="true">
+	<view class="text" >
 		<view class="text_view">
 			<text class="view_text"></text>
 		</view>
@@ -42,6 +42,7 @@
 
 <script setup>
 	import {ref} from 'vue'
+	import {gettypeone,getTypeTwo,getTypeTwoList} from '../api/serve.js'
 	const img = [
 		'https://bfs.biyao.com/group2/M00/32/9D/CghjFmJ6LPiAeSO9AAA7svOszMY962.jpg',
 		'https://bfs.biyao.com/group2/M00/2F/7A/CghjFmJ0s5OAS5DnAABbNoMd8m4404.jpg',
@@ -50,16 +51,6 @@
 		'https://bfs.biyao.com/group2/M00/32/9D/CghjFmJ6LPiAeSO9AAA7svOszMY962.jpg',
 		'https://bfs.biyao.com/group2/M00/2F/7A/CghjFmJ0s5OAS5DnAABbNoMd8m4404.jpg'
 	]
-	uni.request({
-		url:"/api/getTypeOne",
-		method:"GET",
-		success(res) {
-			console.log(res);
-		},
-		fail(err) {
-			console.log(err);
-		}
-	})
 </script>
 
 <style lang="scss">
