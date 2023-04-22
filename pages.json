@@ -8,6 +8,12 @@
 		},
 		{
 			"path": "pages/mine/mine"
+		},{
+			"path": "pages/login/index"
+		},{
+			"path": "pages/register/index"
+		},{
+			"path": "pages/shopcar/index"
 		}
 	],
 	"globalStyle": {
