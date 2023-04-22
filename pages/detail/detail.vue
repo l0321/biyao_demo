@@ -58,7 +58,6 @@
 	})
 
 	// 跳转
-	uni.setStorageSync('token', 'qwertytuyisadfdghgj')
 	let Token = uni.getStorageSync('token')
 	console.log(Token);
 	let goshopcar = (goodId) => {
