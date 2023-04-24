@@ -20,4 +20,11 @@
 			height: 0;
 			background-color: transparent;
 		}
+=======
+	  ::-webkit-scrollbar {
+	   width: 0;
+	   height: 0;
+	   background-color: transparent;
+	  }
+
 </style>

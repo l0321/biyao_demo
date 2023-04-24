@@ -22,3 +22,9 @@ export const RemoveShopCar = (data) => request('/remove', { ...data });
 
 //删除购车数据
 export const DelShopList = (token) => request('/del', { ...token });
+// 热门
+export const hotList = (page)=>request('/hotList',{page},'GET')
+// 详情
+export const detail = (goodId)=>request('/detail',{goodId},'GET')
+// 加入购物车
+export const addList = (goodId,token)=>request('/add',{goodId,token},'GET')

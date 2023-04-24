@@ -8,12 +8,20 @@
 		},
 		{
 			"path": "pages/mine/mine"
+
 		},{
 			"path": "pages/login/index"
 		},{
 			"path": "pages/register/index"
 		},{
 			"path": "pages/shopcar/index"
+		},
+		{
+			"path": "pages/detail/detail"
+		},
+		{
+			"path":"pages/shopcar/shopcar"
+
 		}
 	],
 	"globalStyle": {
@@ -25,7 +33,7 @@
 	// 配置tabbar导航栏
 	"tabBar": {
 		"borderStyle": "black",
-		"selectedColor": "#FB7299",
+		"selectedColor": "#389BFF",
 		"color": "#444444",
 		"list": [{
 			"pagePath": "pages/index/index",
